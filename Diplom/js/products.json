@@ -1,0 +1,45 @@
+[
+	{
+		"id": 1,
+		"title": "MacBook air",
+		"text" : "macbook на чипе m3 16/512gb, самый быстрый ультрабук для работы с графикой",
+		"price": 129000,
+		"imgSrc": "653f009e84604cdf83bd0acdda16872d.jpeg"
+	},
+	{
+		"id": 2,
+		"title": "razer naga pro",
+		"text" : "возможность смены боковой панели и отдельной настройки для каждой кнопки ",
+		"price": 16000,
+		"imgSrc": "naga2.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Apple vision pro",
+		"text" : "самые современные очки виртуальной реальности от компании apple",
+		"price": 500000,
+		"imgSrc": "NYPICHPDPICT000012282638.jpg"
+	},
+	{
+		"id": 4,
+		"title": "katana 17",
+		"text" : "подержанный игровой ноутбук в отличном состояние",
+		"price": 87000,
+		"imgSrc": "katana-17.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Xbox controller",
+		"text" : "подержанный контролер с царапинами на задней стороне, все части как новые",
+		"price": 4100,
+		"imgSrc": "xbox.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Illidan",
+		"text" : "Коллекционная фигурка по игре World of warcraft для настоящих фанатов вселенной",
+		"price": 1400,
+		"imgSrc": "illi20.jpg"
+	}
+]
+

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="source/styles/mycss.css" />
+    <link rel="stylesheet" href="source/styles/bgvideo.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="source/files/значок/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="source/files/значок/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="source/files/значок/favicon-16x16.png"
+    />
+
+    <link rel="manifest" href="source/files/значок/site.webmanifest" />
+
+    <title>HiT</title>
+  </head>
+
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg bg-dark">
+		  <div class="container-fluid">
+			<a class="navbar-brand" href="index.html"
+			  ><img src="source/files/значок/apple-touch-icon.png" alt="..."
+			/></a>
+			<button
+			  class="navbar-toggler"
+			  type="button"
+			  data-bs-toggle="collapse"
+			  data-bs-target="#navbarNav"
+			  aria-controls="navbarNav"
+			  aria-expanded="false"
+			  aria-label="Toggle navigation"
+			>
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link " aria-current="page" href="index.html"
+					>Главная</a
+				  >
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active" href="pricing.html">Галерея</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="contact.html">Контакты</a>
+				</li>
+				
+				
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+	  </header>
+	  <div class="container-fluid mt-4">
+	<div class="container mb-5">
+		<div class="row">
+
+			<!-- Товары -->
+			<div class="col-md-8">
+				<div class="row" id="products-container">
+
+				</div>
+			</div>
+
+			<!-- Корзина -->
+			<div class="col-md-4">
+
+				<!-- Корзина -->
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">Ваш заказ</h4>
+
+							<div data-cart-empty class="alert alert-secondary" role="alert">
+							Корзина пуста
+						</div>
+
+						<!-- cart-wrapper -->
+						<div class="cart-wrapper">
+
+						</div>
+						<!-- // cart-wrapper -->
+
+						<!-- Стоимость заказа -->
+						<div class="cart-total">
+							<p data-cart-delivery class="none">
+								<span class="h5">Доставка:</span>
+								<span class="delivery-cost">250 ₽</span><br>
+								<span class="small">Бесплатно при заказе от 1500 ₽</span>
+							</p>
+							<p><span class="h5">Итого:</span>
+								<span class="total-price">0</span>
+								<span class="rouble">₽</span></p>
+						</div>
+						<!-- // Стоимость заказа -->
+
+					</div>
+
+					<!-- Оформить заказ -->
+					<div id="order-form" class="card-body border-top none">
+						<h5 class="card-title">Оформить заказ</h4>
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Ваш номер телефона">
+							</div>
+							<button type="submit" class="btn btn-primary"><a href="order.html">Заказать</a></button>
+						</form>
+					</div>
+					<!-- // Оформить заказ -->
+
+				</div>
+				<!-- // Корзина -->
+
+			</div>
+
+		</div>
+	</div>
+</div>
+<footer class="mt-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 footer-text text-center">
+            <a
+            class="nav-link"
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          >
+            <img
+              style="width: 40px; margin-inline: 1em"
+              src="source/images/yt.png"
+              alt="..."
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-12 footer-text text-center">
+          <p>
+             <br />ALL Rights Reserved 2024<br />
+            
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-12 media-links">
+         
+          <img
+            style="width: 40px; margin-inline: 1em"
+            src="source/images/tg.png"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+  </footer>
+	<!-- Подключаем скрипты -->
+
+	<script src="./js/renderProducts.js"></script>
+	<script src="./js/calcCartPrice.js"></script>
+	<script src="./js/toggleCartStatus.js"></script>
+	<script src="./js/counter-02.js"></script>
+	<script src="./js/cart-02.js"></script>
+
+</body>
+</html>
